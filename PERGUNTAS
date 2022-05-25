@@ -1,0 +1,366 @@
+from time import sleep
+import os
+def limpa():
+    os.system("cls")
+def redic():
+    print('\nREDIRECIONANDO PERGUNTAS')
+    sleep(1)
+    print('\tINICIANDO PERGUNTAS...')
+    sleep(1)
+    print('\t\tINICIANDO PERGUNTAS...')
+    sleep(1)
+    print('\t\t\tINICIANDO PERGUNTAS...')
+    limpa()
+
+def opcao():
+    contador = 0
+    sleep(1)
+    limpa()
+    redic()
+	   #PERGUNTA 1
+    print('1.QUANTAS LETRAS POSSUEM O ALFABETO DA LINGUA PORTUGUESA?')
+    print('\nA = 25')
+    print('B = 28')
+    print('C = 26')
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+
+    while (resposta != "C" and resposta!= "A" and resposta!= "B"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ C]: ")).upper()		
+    if (resposta == "C"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "A" or resposta == "B"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("2. QUANTO É 5 VEZES 15?")
+    print("A = 55")
+    print("B = 65")
+    print("C = 75")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+
+    while (resposta != "C" and resposta!= "A" and resposta!= "B"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ C]: ")).upper()		
+    if (resposta == "C"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "A" or resposta == "B"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+        sleep(1)
+    limpa()
+    print("3. QUAIS SÃO AS CAMADAS DA ATMOSFERA?")
+    print("\nA. TROPOSFERA, ESTOSFERA, COMBOSFERA, PLANOSFERA")
+    print("B. TROPOSFERA, ESTRATOSFERA,MESOSFERA,TERMOSFERA E EXOFERA")
+    print("C. IONOSFERA, MESOSFERA, TERMOSFERA, EXOSFERA, TROPOSFERA")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ C]: ")).upper()		
+    if (resposta == "B"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "C" or resposta == "A"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+        sleep(1)
+    limpa()
+    print("4. QUANDO FOI DESCOBERTA A ÁMERICA?")
+    print("\nA. 12/10/1492")
+    print("B. 11/9/1493")
+    print("C. 23/05/1450")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+
+    while (resposta != "C" and resposta!= "A" and resposta!= "B"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ C]: ")).upper()		
+    if (resposta == "A"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "C" or resposta == "B"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+        sleep(1)
+    limpa()
+    print("5. A POLITICA PODE SER CONSIDERADA CENTRISTA SENDO ASSIM DIVIDIDA EM? ")
+    print("\nA. CAPITALISTA, ANARQUISTA E SOCIALISTA")
+    print("B. DIREITA, ESQUERDA E CENTRO")
+    print("C. FACISTA, NAZISTA E COMUNISTA")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+
+    while (resposta != "C" and resposta!= "A" and resposta!= "B"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ C]: ")).upper()		
+    if (resposta == "B"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "C" or resposta == "A"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+        sleep(1)
+    limpa()
+    print("SUA PONTUAÇÃO TOTAL É DE {} PONTOS".format(contador))
+    
+def opcao_2():
+    limpa()
+    redic()
+    limpa()
+    contador = 0
+    print("1. ASSINALE A ALTERNATIVA DO VOCABULO CORRETAMENTE ACENTUADO:")
+    print("\nA = ÍTENS")
+    print('B = RÍTMO')
+    print('C = ÍTEM')
+    print('D = HÍFEN')
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+	    print("OPÇÃO INVALIDA!")
+	    resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "D"):
+	    contador = contador + 10
+	    sleep(1)
+	    print('Resposta Correta!')
+	    sleep(1.5)
+    if (resposta == "A" or resposta == "B" or resposta == "C"):
+	    sleep(1)
+	    print('Resposta errada!')
+	    sleep(1.5)
+	    contador = contador + 0
+    limpa()
+    print("2.DOIS MÉDICOS ATENDEM 24 PACIENTES EM 6 HORAS. MANTIDAS A PROPORÇÕES, TRÊS MÉDICOS ATENDEM 24 PACIENTES EM:")
+    print("\nA. 4 HORAS")
+    print("B. 5 HORAS")
+    print("C. 6 HORAS")
+    print("D. 8 HORAS")
+	
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+	    print("OPÇÃO INVALIDA!")
+	    resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "A"):
+	    contador = contador + 10
+	    sleep(1)
+	    print('Resposta Correta!')
+	    sleep(1)
+    if (resposta == "D" or resposta == "B" or resposta == "C"):
+	    sleep(1)
+	    print('Resposta errada!')
+	    sleep(1)
+	    contador = contador + 0
+    limpa()
+    print("3. QUAL O AGENTE ETIOLÓGICO DA DENGUE?")
+    print("\nA. BACTÉRIA")
+    print("B. PROTOZOÁRIO")
+    print("C. VÍRUS")
+    print("D. MOSQUITO")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+	    print("OPÇÃO INVALIDA!")
+	    resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "C"):
+	    contador = contador + 10
+	    sleep(1)
+	    print('Resposta Correta!')
+	    sleep(1.5)
+    if (resposta == "D" or resposta == "B" or resposta == "A"):
+	    sleep(1)
+	    print('Resposta errada!')
+	    sleep(1.5)
+	    contador = contador + 0
+    limpa()
+    print("4. QUAL DESTES PAÍSES SE FORMARAM APÓS A I GUERRA MUNDIAL?")
+    print("\nA. AUSTRIA")
+    print("B. VENEZUELA")
+    print("C. MARROCOS")
+    print("D. URUGUAI")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+	    print("OPÇÃO INVALIDA!")
+	    resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "A"):
+	    contador = contador + 10
+	    sleep(1)
+	    print('Resposta Correta!')
+	    sleep(1.5)
+    if (resposta == "D" or resposta == "B" or resposta == "C"):
+	    sleep(1)
+	    print('Resposta errada!')
+	    sleep(1.5)
+	    contador = contador + 0
+    limpa()
+    print("5. QUAL A FORMAÇÃO ACADÊMICA DO JOGADOR DE FUTEBOL SÓCRATES")
+    print("\nA. DIREITO")
+    print("B. SOCIOLOGIA")
+    print("C. FILOSOFIA")
+    print("D. MEDICINA")
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+	    print("OPÇÃO INVALIDA!")
+	    resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "D"):
+	    contador = contador + 10
+	    sleep(1)
+	    print('Resposta Correta!')
+	    sleep(1.5)
+    if (resposta == "A" or resposta == "B" or resposta == "C"):
+	    sleep(1)
+	    print('Resposta errada!')
+	    sleep(1.5)
+	    contador = contador + 0
+    limpa()
+    print("SUA PONTUAÇÃO TOTAL É DE {} PONTOS".format(contador))
+    
+def opcao_3():
+    contador = 0
+    limpa()
+    redic()
+    sleep(1)
+    print('1. A NOTA FINAL PARA UMA DISCIPLINA DE UMA INSTITUIÇÃO DE ENSINO SUPERIOR É A MÉDIA PONDERADA DAS NOTAS A, B E C, CUJOS PESOS SÃO 1, 2 E 3, RESPECTIVAMENTE. PAULO OBTEVE A = 3,0 E B = 6,0. QUANTO ELE DEVE OBTER EM C PARA QUE SUA NOTA FINAL SEJA 6,0??')
+    print('\nA = 7')
+    print('B = 9')
+    print('C = 8')
+    print('D = 10')
+    
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "A"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "D" or resposta == "B" or resposta == "C"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("2. DADOS OS NÚMEROS 10, 6, 4, 3 E 9, CINCO NÚMEROS DE UMA LISTA DE 8 NÚMEROS INTEIROS, O MENOR VALOR POSSÍVEL PARA A MEDIANA DESSE CONJUNTO É:")
+    print("\nA. 3")
+    print("B. 3.5")
+    print("C. 4")
+    print("D. 5.5")
+    
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "B"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "D" or resposta == "A" or resposta == "C"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("3. ANALISE ATENTAMENTE AS ALTERNATIVAS SEGUINTES E MARQUE AQUELA QUE INDICA A FUNÇÃO DO NUCLÉOLO.")
+    print("\nA. CONTROLAR TODAS AS ATIVIDADES CELULARES")
+    print("B. PROMOVER A SECREÇÃO DE SUBSTÂNCIAS")
+    print("C. GARANTIR A SÍNTESE DE LIPÍDIOS")
+    print("D. FORMAR AS SUBUNIDADES RIBOSSOMAIS")
+        
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+            print("OPÇÃO INVALIDA!")
+            resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "D"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "B" or resposta == "A" or resposta == "C"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("4. “CONDENEM-ME, NÃO IMPORTA. A HISTÓRIA ME ABSOLVERÁ”. ESSA FRASE FOI PRONUNCIADA POR FIDEL CASTRO, PRINCIPAL LÍDER DA REVOLUÇÃO CUBANA, NA OCASIÃO EM QUE ELE:")
+    print("\nA. FOI ACUSADO DE ASSASSINAR O PRESIDENTE FULGÊNCIO BATISTA, 1959")
+    print("B. COMANDOU AS EXECUÇÕES DE MILITARES AMERICANOS PARTIDÁRIOS DE FULGÊNCIO BATISTA")
+    print("C. FOI JULGADO PELO ASSALTO AO QUARTEL DE MONCADA, EM 1953")
+    print("D. ASSOCIOU-SE AO GOVERNO DE HUGO CHÁVEZ, PRESIDENTE DA VENEZUELA")
+        
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "C"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "B" or resposta == "A" or resposta == "D"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("5. O RENASCIMENTO, AMPLO MOVIMENTO ARTÍSTICO, LITERÁRIO E CIENTÍFICO, EXPANDIU-SE DA PENÍNSULA ITÁLICA POR QUASE TODA A EUROPA, PROVOCANDO TRANSFORMAÇÕES NA SOCIEDADE. SOBRE O TEMA, É CORRETO AFIRMAR QUE:")
+    print("\nA. O RACIONALISMO RENASCENTISTA REFORÇOU O PRINCÍPIO DA AUTORIDADE DA CIÊNCIA TEOLÓGICA E DA TRADIÇÃO MEDIEVAL")
+    print("\nB. HOUVE O RESGATE, PELOS INTELECTUAIS RENASCENTISTAS, DOS IDEAIS MEDIEVAIS LIGADOS AOS DOGMAS DO CATOLICISMO, SOBRETUDO DA CONCEPÇÃO TEOCÊNTRICA DE MUNDO")
+    print("\nC. NESSE PERÍODO, REAFIRMOU-SE A IDEIA DE HOMEM CIDADÃO, QUE TERMINOU POR ENFRAQUECER OS SENTIMENTOS DE IDENTIDADE NACIONAL E CULTURAL, OS QUAIS CONTRIBUÍRAM PARA O FIM DAS MONARQUIAS ABSOLUTAS")
+    print("\nD. OS ESTUDIOSOS DO PERÍODO BUSCARAM APOIO NO MÉTODO EXPERIMENTAL E NA REFLEXÃO RACIONAL, VALORIZANDO A NATUREZA E O SER HUMANO")
+        
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "D"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "B" or resposta == "A" or resposta == "C"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("6. INFORME A TRADUÇÃO DA MUSICA DA BANDA RED HOT CHILLI PEPPERS, DARK NECESSITES:")
+    print("\nComing out to the light of day\nWe got many moons that are deep at play\nSo I keep an eye on the shadow's smile\nTo see what it has to say\nYou and I both know\nEverything must go away\nAh, what do you say?")
+    print("\nA. Saindo em direção a luz do dia\nNós temos muitas luas que estão em jogo\nEntão eu fico de olho no sorriso sombrio\nPara ver o que ele tem a dizer\nVocê e eu sabemos\nTudo deve ir embora\nAh, o que você diz?")
+    print("\nB. Saindo para a noite do dia\nfaremos muitas luas que estão em jogo\nEntão eu fico de olho no seu sorriso da sombra\nPara ver o que tem a dizer\nVocê e eu sabemos\nTudo deve ir embora\nAh, o que você diz?")
+    print("\nC. Indo para a luz do dia\nfaremos muitas luas que estão em jogo\nEntão eu fico de olho no seu sorriso sombrio\nPara ver o que tem a dizer\nVocê e eu sabemos\nTudo deve ir embora\nAh, o que você diz?")
+    print("\nD. Saindo em direção a luz do dia\nNós vemos muitas luas que estão em jogo\nEntão eu estou de olho no sorriso sombrio\nPara ver o que ele tem a dizer\nVocê e eu sabemos\nTudo deve ir embora\nAh, o que você diz?")
+        
+    resposta=str(input('\nDigite sua resposta: ')).upper()
+    while (resposta != "C" and resposta!= "A" and resposta!= "B" and resposta!= "D"):
+        print("OPÇÃO INVALIDA!")
+        resposta = str(input("DIGITE UMA OPÇÃO DE [A ATÉ D]: ")).upper()
+    if (resposta == "A"):
+        contador = contador + 10
+        sleep(1)
+        print('Resposta Correta!')
+        sleep(1.5)
+    if (resposta == "B" or resposta == "D" or resposta == "C"):
+        sleep(1)
+        print('Resposta errada!')
+        sleep(1.5)
+        contador = contador + 0
+    limpa()
+    print("SUA PONTUAÇÃO TOTAL É DE {} PONTOS".format(contador))
