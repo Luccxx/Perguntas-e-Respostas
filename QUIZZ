@@ -1,0 +1,42 @@
+import code
+from time import sleep
+import os
+contador = 0
+def limpa():
+    os.system("cls")
+def redic():
+	print('\nREDIRECIONANDO PERGUNTAS')
+	sleep(1)
+	print('\tINICIANDO PERGUNTAS...')
+	sleep(1)
+	print('\t\tINICIANDO PERGUNTAS...')
+	sleep(1)
+	print('\t\t\tINICIANDO PERGUNTAS...')
+	limpa()
+	
+
+print("---BEM-VINDO-AO-QUIZ---\tCRIADOR - Luccas.N\n\nSOU UM JOGO DE PERGUNTAS E RESPOSTAS EM FASE DE TESTES\nVOCÊ, USUARIO, IRÁ AJUDAR A DESENVOLVER NOVAS ATUALIZAÇÕES OU MELHORIA DE BUGS\n")
+sleep(1)
+while True:
+    opcao = str(input('DESEJA COMEÇAR A JOGAR? [S/N] ->')).upper()
+    while (opcao != 'S' and opcao != 'N'):
+        print("Opção Invalida!")
+        opcao = str(input('Digite uma opção válida: ')).upper()
+        if opcao == 'S':
+            break
+    if opcao == 'N':
+        quit()
+    limpa()    
+    opc_menu = str(input("\t---NIVEL---\n(1) FACIL\n(2) MÉDIO\n(3) DIFICIL\n->"))
+    while (opc_menu != "1" and opc_menu != "2" and opc_menu != "3"):
+	    limpa()
+	    print("Opção Invalida!")
+	    opc_menu = str(input("\t---NIVEL---\n(1) FACIL\n(2) MÉDIO\n(3) DIFICIL\n->")) 
+    if opc_menu == '1':
+        code.opcao()
+    if opc_menu == '2':
+        code.opcao_2()
+    if opc_menu == '3':
+        code.opcao_3()
+    
+        
