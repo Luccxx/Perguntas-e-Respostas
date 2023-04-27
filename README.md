@@ -1,6 +1,6 @@
 # QUIZ-de-PERGUNTAS
 
-Quiz de perguntas feito para aprimorar meus estudos em Python. Onde possui niveis de dificuldade
+Quiz de perguntas feito para aprimorar meus estudos em Python utilizando conceitos iniciais de POO.
 
 Sua funções:
 
