@@ -1,6 +1,6 @@
-# QUIZ-de-PERGUNTAS
+# Perguntas e Respostas
 
-Quiz de perguntas feito para aprimorar meus estudos em Python utilizando conceitos iniciais de POO.
+Jogo de perguntas e respostas feito para aprimorar meus estudos em Python utilizando conceitos iniciais de POO.
 
 Sua funções:
 
